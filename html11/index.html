@@ -11,7 +11,7 @@
 
 <body>
   <!-- Имя формы должно быть в единственном числе в коде -->
-  <form action="" name="form1" autocomplete="on">
+  <!-- <form action="" name="form1" autocomplete="on">
     <label for="#ta1"> Список геев</label>
 
       <button type="submit">Отправить</button>
@@ -28,6 +28,28 @@
       </select>
 
       <textarea cols="30" rows="20" id="ta1"></textarea>
+  </form> -->
+
+  <form autocomplete="on" name="form2">
+    <fieldset>
+      <legend>dwa input</legend>
+      <input type="text">
+      <input type="text">
+    </fieldset>
+      
+    <fieldset>
+      <input type="text">
+      <select name="sel1">
+        <option value="nontype">--- Не выбрано ---</option>
+        <option value="video">Видеокарта</option>
+        <option value="pros">Процессор</option>
+        <option value="SSd">ССД</option>
+        <option value="plata">Мат. Плата</option>
+        <option value="blok">Блок питания</option>
+      </select>
+    </fieldset>
+      <button type="reset">reset</button>
+      <button type="submit">submit</button>
   </form>
 </body>
 </html>
