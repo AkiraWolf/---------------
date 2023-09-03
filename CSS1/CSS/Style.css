@@ -1,0 +1,32 @@
+
+/* Обращение к элементу */
+div {
+  color: aqua;
+}
+
+/* Обращение к id */
+/* 
+#div2 {
+  background-color: black;
+} */
+
+/* Обращение к классу */
+/* .Block1, .Block2 {
+  color: red;
+} */
+
+/* Обрашение только к дивам с опредленным классом */
+/* 
+div.BlueLock {
+  color: cadetblue;
+} */
+
+/* Обращение только к дочерним дивам с опредленным классом */
+/* div .BlueLock {
+  color: cadetblue;
+} */
+
+/* Обращение к дочерним элементам только 1 уровня
+BlueLock1>.BlueLock {
+  color: cadetblue;
+} */
