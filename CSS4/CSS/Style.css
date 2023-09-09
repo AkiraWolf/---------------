@@ -1,0 +1,10 @@
+
+
+.line {
+  box-sizing: border-box;
+  background-color: rgba(red, green, blue, alpha);
+}
+
+.line__title {
+  color: blue;
+}
