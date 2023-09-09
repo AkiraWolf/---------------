@@ -1,0 +1,27 @@
+/* Вес по элементу/псевдоэлементу - 1 */
+/* div {
+  color:aqua; 
+} */
+/* Вес по классу/ атрибуту/ псевдоклассу- 10 */
+/* .block {
+  font-size: 30px;
+  color: ;
+}
+
+[class] {
+  color: brown;
+} */
+
+ /* Вес по id - 100 */
+
+ /* Вес по инлайн стилю - 1000  */
+
+/* !important выше всех */
+
+/* .block {
+  color: orange;
+}
+
+div.block {
+  color: blue;
+} */
