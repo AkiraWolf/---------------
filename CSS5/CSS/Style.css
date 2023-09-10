@@ -5,8 +5,12 @@
   line-height: 18px;
   font-style: italic;
   font-weight: bold;
-  text-align: center;
+  text-align: justify;
   text-decoration: line-through;
   text-shadow: 5 7 3 #2e2a2a;
-
+  text-transform: lowercase;
+  text-indent: 500px;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  white-space: nowrap;
 }
