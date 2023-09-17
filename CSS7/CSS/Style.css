@@ -1,0 +1,32 @@
+/* box-sizing - content-box; border-box; unset; inheit
+margin, padding - отступы
+padding (left, right, bottom, top), padding 10px 30px 10px 30px
+margin тоже самое. Маржины наслаиватся друг на друга
+Не использовать паддиг и маргин на инлайн элементах
+Изображение - инлайн элемент
+widht, height - строгие варианты высоты и ширины
+min-widht, min-height - не строгие варианты, минимальный размер
+max-widht, max-height - не строгие варианты, максимальный размер размер
+overflow - при избытке текста например. 
+display - то, как отображается элемент
+border - границы
+box-shadow - тень от блока
+opacity - прозрачность
+visibility - скрыть элемент полностью
+  */
+.block, .block-element, .span, .img {
+  margin: 50px;
+  padding: 50px;
+  background-color: rgb(170, 187, 187);
+  min-width: 100px;
+  max-width: 1000px;
+  min-height: 100px;
+  max-height: 1000px;
+  overflow: auto;
+  display: block;
+  border: 10px solid #973d3d;
+  box-shadow: inset 23px 27px 10px #000;
+  opacity: 0.7;
+  visibility: visible;
+}
+
