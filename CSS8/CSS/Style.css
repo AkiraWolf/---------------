@@ -1,0 +1,14 @@
+/*
+linear-gradien - создать градиент
+deg - градус изменения градиента  
+background: linear-gradient(90deg,#3aa80e55 #cf5e5e );
+background position - горизонталь вертикаль
+*/
+
+.block {
+  width: 300px;
+  height: 300px;
+  background: url(../Icons/tab-icon.ico) 0 0 / cover no-repeat;
+  box-shadow: 0 0 10px black;
+  /* background-attachment: fixed; */
+}
