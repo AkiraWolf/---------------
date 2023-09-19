@@ -1,12 +1,3 @@
-/* 
-position static - по умолчанию
-у всех кроме static есть top, left, right, bottom, z-idexuto)
-relative - 
-*/
-  /* position: relative; */
-  /* position: absolute; */
-  /* position: fixed; */
-
   .wrapper {
     padding: 100px 15px;
     height: 100vh;
@@ -46,4 +37,12 @@ relative -
   
   /* ------------------------------------------------------------------- */
 
+/* 
+position static - по умолчанию
+у всех кроме static есть top, left, right, bottom, z-idexuto)
+relative - 
+*/
+  /* position: relative; */
+  /* position: absolute; */
+  /* position: fixed; */
 
