@@ -1,0 +1,82 @@
+  .wrapper {
+    padding: 100px 15px;
+    height: 100vh;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 100%;
+    border: 10px solid #999;
+    display: flex;
+  }
+  
+  .block {
+    height: 300px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.842);
+  }
+  
+  .red {
+    background-color: rgb(235, 118, 118);
+  }
+  .blue {
+    background-color: rgb(80, 91, 235);
+  }
+  .orange {
+    background-color: rgb(224, 158, 59);
+  }
+  .green {
+    background-color: rgb(113, 212, 113);
+  }
+  .purple {
+    background-color: rgb(205, 148, 231);
+  }
+  
+  /* ------------------------------------------------------------------- */
+  /* Transition - для улучшения визуальных эффектов */
+
+.red:hover {
+  background-color: #c21919;
+  border-radius: 100px;
+}
+.blue:hover {
+  background-color: #c21919;
+  border-radius: 100px;
+}
+.green:hover {
+  background-color: #c21919;
+  border-radius: 100px;
+}
+.purple:hover {
+  background-color: #c21919;
+  border-radius: 100px;
+}
+
+.orange:hover {
+  background-color: #c21919;
+  border-radius: 100px;
+}
+
+.red {
+  transition-duration: 4s;
+}
+
+.blue {
+  transition: border-radius 3s;
+}
+
+.orange {
+  transition-delay: 3s;
+}
+
+.green {
+  transition: border-radius 3s, background-color 3s 3s;
+}
+
+.purple {
+  transition: 1s;
+  transition-timing-function: ease;
+}
