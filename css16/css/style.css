@@ -1,0 +1,105 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+.wrapper {
+  padding: 50px;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.link {
+  display: block;
+  background-color: #555;
+  border-radius: 2em;
+  padding: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 2em;
+  margin-bottom: 100px;
+  font-size: inherit;
+}
+
+.button {
+  display: block;
+  background-color: #555;
+  border-radius: 2em;
+  padding: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: inherit;
+  color: inherit;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+/* -------------------------------------------------------- */
+/* hover - при наведении мышкой
+visited - при переходе по ссылке
+active - при нажатии на ссылку/элемент 
+focus - при выделении элемента/фокусе на нем. Если написать фокус просто в коде, без указания к чему он относится,
+то фокус сработает на всех элементах страницы
+:nth-child(odd) - действует на все нечетные элементы
+:nth-child(even) - действует на все четные элементы
+*/
+.list {
+  margin-bottom: 50px;
+}
+
+.link:hover{
+  background-color: red;
+}
+
+.link:visited {
+  background-color: purple;
+}
+
+.link {
+  transition: all 3s;
+}
+
+.link:active {
+  background-color: #852d2d;
+}
+
+.input:focus{
+  box-shadow: 0 0 10px 10px #8a0a0a;
+}
+
+.button:focus {
+  border-radius: 50%;
+  background-color: #8a0a0a;
+}
+
+/* .list__item:first-child {
+  color: red;
+}
+
+.list__item:last-child {
+  color: red;
+} */
+
+.list__item:nth-child(odd) {
+  color: red;
+}
+
+.block__title:first-child {
+  color: green;
+}
+
+.block__item:nth-child(2) {
+  color:blue;
+}
