@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto"),
+        url("../Fonts/Roboto/RobotoM.woff2") format('woff2'),
+        url("../Fonts/Roboto/RobotoM.woff") format('woff'),
+        url("../Fonts/Roboto/RobotoM.eot") format('eot');
+  font-weight: 16;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Manrope;
+  src: local("Manrope"),
+        url("../Fonts/Manrope/MnrSemib.woff2") format('woff2'),
+        url("../Fonts/Manrope/MnrSemib.woff") format('woff'),
+        url("../Fonts/Manrope/MnrSemib.eot") format('eot');
+  font-weight: 16;
+  font-style: normal;
+  font-display: swap;
+}
